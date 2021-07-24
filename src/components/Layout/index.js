@@ -1,18 +1,19 @@
 import React from 'react'
 import { ThemeProvider } from 'styled-components'
 
+//Components
+import Header from 'components/Header'
 //styles
 import { GlobalStyles, lightTheme, darkTheme } from 'styles/GlobalStyles'
 //Hooks
 import {useMetaDataQuery}  from "hooks/useMetaDataQuery"
-
 const Layout = ({ children }) => {
     const data=useMetaDataQuery()
-    console.log(data);
+    // console.log(data)
     return (
         <ThemeProvider theme={darkTheme}>
             <GlobalStyles />
-            Layout Component
+            <Header siteTitle={data.title} />
             {children}
         </ThemeProvider>
     )
