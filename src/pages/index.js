@@ -2,11 +2,17 @@ import * as React from "react"
 
 //Components
 import Layout from "components/Layout"
-import SEO from "components/SEO"
+import Seo from "components/Seo"
+import HomeBanner from "components/HomeBanner"
+import BlogPostCard from "components/BlogPostCard"
 
 const IndexPage = () => (
   <Layout>
-    Start Page
+    <Seo title="Home" />
+    <HomeBanner />
+    <main>
+      <BlogPostCard />
+    </main>
   </Layout>
 )
 
