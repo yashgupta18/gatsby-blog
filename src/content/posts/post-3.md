@@ -1,10 +1,10 @@
 ---
 type: 'post'
 date: '2021-08-25'
-image: '../../images/blog-image-3.jpg'
+image: '../../images/blog-post-3.jpg'
 slug: 'post-3'
 title: 'Blog Post 3'
-publish: true
+published: true
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse gravida nisl et elit maximus malesuada. Fusce leo mi, imperdiet id nunc sit amet, egestas luctus ex. Ut consequat arcu sapien, ut ultricies ex volutpat dictum. Proin facilisis maximus velit, sit amet scelerisque lacus volutpat vitae. Aenean non magna nec felis blandit fringilla sed vitae mauris. Nam sapien arcu, rutrum blandit lectus a, commodo volutpat leo. Cras cursus mauris nunc, vel ultrices dolor posuere sed. Cras venenatis augue blandit lacus egestas faucibus. Nunc sed placerat magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin vitae pretium mauris, vel accumsan mi. Donec nec enim pretium, tincidunt ante sed, aliquet odio.
